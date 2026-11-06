@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases & Vector Stores
+db/
+*.db
+*.sqlite
+
+# Environment Configuration
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local PDF files (if they are large and shouldn't be checked in, though we might commit small sample files)
+data/*.pdf
